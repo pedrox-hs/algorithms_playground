@@ -12,7 +12,7 @@ int main(){
     uint32_t *primes, limit, divisor;
     struct timeb start, end;
 
-    printf("Enter the number of prime numbers required\n");
+    printf("Enter the number of prime numbers required: ");
     scanf("%d",&limit);
     primes = malloc(limit * sizeof *primes);
 
