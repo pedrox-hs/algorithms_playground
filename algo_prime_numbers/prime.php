@@ -26,5 +26,5 @@ while ($number++) {
     }
 }
 
-echo "Time: " . (microtime(true) - $start) . "\n";
-echo "Last number: " . end($primes);
+echo "Elapsed time: " . (microtime(true) - $start) . " milliseconds\n";
+echo "Last prime number found: " . end($primes);

@@ -4,9 +4,6 @@ import sys
 import math
 import time
 
-#number = raw_input("Opa: ")
-#number = map(int, number.split())
-
 limit = int(sys.argv[1])
 
 primes = []
@@ -38,7 +35,5 @@ while True:
         if quantity >= limit:
             break
 
-print "\n",time.time() - start_time
-for x in range(0,100):
-    pass
-print primes[quantity - 1]
+print "\nElapsed time:", time.time() - start_time, "milliseconds"
+print "Last prime number found:",primes[limit - 1];
