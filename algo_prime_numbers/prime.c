@@ -1,14 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
-#include <sys\timeb.h>
+#include <sys/timeb.h>
 #include <math.h>
 
-int main(){
+int main(int argc, char *argv[]){
     long count = 0, number = 1, primePos, diff;
     int isNotPrime = 0;
     double s;
-    
+
     uint32_t *primes, limit, divisor;
     struct timeb start, end;
 
