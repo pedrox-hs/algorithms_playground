@@ -4,8 +4,6 @@ import sys
 import math
 import time
 
-limit = int(sys.argv[1])
-
 primes = []
 limit = int(sys.argv[1])
 quantity = 0
